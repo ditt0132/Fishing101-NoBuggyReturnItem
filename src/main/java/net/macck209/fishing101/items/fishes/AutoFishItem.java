@@ -88,7 +88,7 @@ public class AutoFishItem extends FishItem {
         }
 
         public Builder returnItem(Item returnItem) {
-            this.returnItem = returnItem;
+            this.returnItem = Items.AIR;
             return this;
         }
 
